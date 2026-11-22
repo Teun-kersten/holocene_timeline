@@ -1,0 +1,16 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .timeline {
+    flex-direction: row;
+    align-items: flex-start;
+    overflow-x: auto;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+}
